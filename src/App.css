@@ -15,7 +15,7 @@ body {
 .car button{
   padding: 2%;
   background-color: rgb(172, 0, 0);
-  color: #333;
+  color: rgb(245, 135, 135);
   cursor: pointer;
   font-weight: bold;
 }
@@ -25,9 +25,12 @@ body {
   border: #111 solid 3px;
   color: rgb(193, 86, 86);
 }
+.car button:not(:first-of-type):active{
+  transform: scale(0.95);
+}
 
 .car {
-  background: rgba(0, 0, 0, 0.675);
+  background: rgba(10, 0, 0, 0.8);
   overflow: hidden;
   position: relative;
   padding: 20px 30px;
