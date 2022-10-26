@@ -65,7 +65,7 @@ export default function ContextProvider({children}){
     }, [])
     useEffect(() => {
         setInterval(()=>{dispatchState({type: 'deceleration'}); console.log('inside interval');}
-        ,1000);
+        ,400);
 //        return ()=> state.clearInterval(state.deceleration);
     }, [])
     

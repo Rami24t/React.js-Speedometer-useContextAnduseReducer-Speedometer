@@ -14,15 +14,17 @@ body {
 }
 .car button{
   padding: 2%;
-  background-color: #222;
+  background-color: #333;
   color: rgb(193, 86, 86);
 }
 
 .car {
-  background-color: white;
-  background: white;
+  background: rgba(0, 0, 0, 0.675);
   overflow: hidden;
   position: relative;
+  padding: 20px 30px;
+  border-radius: 9px;
+  border: 2px solid rgba(0, 0, 0, 0.811);
 }
 .bg{
   background-image: url("https://wallpaperaccess.com/full/2055140.jpg");
