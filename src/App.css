@@ -9,8 +9,13 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 98vh;
+}
+.car button{
+  padding: 2%;
+  background-color: #222;
+  color: rgb(193, 86, 86);
 }
 
 .car {
@@ -21,10 +26,14 @@ body {
 }
 .bg{
   background-image: url("https://wallpaperaccess.com/full/2055140.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: fixed;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   top: 0%;
   right: 0%;
   z-index: -9;
+  overflow: hidden;
 }
