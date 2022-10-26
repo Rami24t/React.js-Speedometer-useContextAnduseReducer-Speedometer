@@ -1,3 +1,8 @@
+# JS Development + React Reducer/Context Practice
+
+## My Solution Live: https://rami24t.github.io/React.js-Speedometer-useContextAnduseReducer-Speedometer/
+
+
 # In this exercise you will use useReducer to build a car.
 
 The car has the following values, which should be displayed on the "speedometer":
