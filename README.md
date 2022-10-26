@@ -18,8 +18,8 @@ The car has the following functions:
 
 ## Requirements
 
-- When accelerating, the speed is accelerated by 5 km/h.
-- When braking, the speed is decelerated by 5km/h.
+- When accelerating, the speed is increased.
+- When braking, the speed is decreased.
 - Accelerating is possible only when the car is switched on.
 - Switching off is possible only when the car is stopped (0km/h).
 - A car cannot drive at negative km/h.

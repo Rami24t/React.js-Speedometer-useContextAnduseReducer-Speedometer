@@ -14,7 +14,15 @@ body {
 }
 .car button{
   padding: 2%;
+  background-color: rgb(172, 0, 0);
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+.car button:not(:first-of-type){
   background-color: #333;
+  background-image: linear-gradient(90deg, #000, #333, #000, #333, #000, #333, #000, #333, #000, #333, #000, #333, #000, #333);
+  border: #111 solid 3px;
   color: rgb(193, 86, 86);
 }
 
