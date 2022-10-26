@@ -19,8 +19,8 @@ export default function ContextProvider({children}){
                     }
             case 'accelerate':
                 if(state.started)
-                    if(state.speed + 5>= 200)
-                    state.speed=200;
+                    if(state.speed + 5>= 240)
+                    state.speed=240;
                     else
                     state.speed+=5;
                 return {...state};

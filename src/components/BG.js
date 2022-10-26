@@ -5,7 +5,7 @@ import { CarContext } from './CarContext';
 const BG = () => {
     const {state} = useContext(CarContext);
     return(
-        <div className="bg" style={{filter: 'blur('+((state.speed)/20)+'px)'}} />
+        <div className="bg" style={{filter: 'blur('+((state.speed)/30)+'px)'}} />
     );
 }
 
