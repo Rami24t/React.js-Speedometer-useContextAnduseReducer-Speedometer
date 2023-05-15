@@ -2,6 +2,11 @@
 
 ## My Solution Live: https://rami24t.github.io/React.js-Speedometer-useContextAnduseReducer-Speedometer/
 
+## Snapshot
+
+![Screenshot 2023-05-15 at 20-37-24 Rami Al-Saadi's Speedometer - React js Exc](https://github.com/Rami24t/React.js-Speedometer-useContextAnduseReducer-Speedometer/assets/103028944/0c42823e-83b2-47ad-86ee-0be33235f409)
+
+
 
 # In this exercise you will use useReducer to build a car.
 
